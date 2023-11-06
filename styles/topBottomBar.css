@@ -37,9 +37,8 @@
     background-color: #F5F5F5;
     width: 97%;
     height: 40px;
-    margin: 1.5%;
     border-radius: 7px;
-    position: fixed;
+    margin: auto;
     bottom: 0;
     display: flex;
     align-content: center
@@ -51,5 +50,4 @@
     color: #A23535;
     font-size: 36px;
     font-family: "Lovers Quarrel", cursive, serif;
-
 }
