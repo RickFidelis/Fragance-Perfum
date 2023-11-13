@@ -1,0 +1,106 @@
+.content {
+    width: 94%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 1.5%;
+}
+
+/* Configurando Espaço dos Cards da Tela de Inicio */
+
+.card {
+    min-height: 10%;
+    min-width: 80%;
+    width: 100%;
+    height: 33%;
+    margin-top: 2%;
+    border-radius: 7px;
+    margin-bottom: 4%;
+}
+
+.glass {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 7px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.glassEffect{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);
+    position: relative;
+}
+
+/* Configurações individuais dos Cards */
+
+#floratta {
+    background-image: url(../img/png/Flor\ aquarela\ 2.png);
+}   
+
+#florattaImg {
+    height: 60%;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+    right: 0%;
+    margin-top: 2.5%;
+
+}
+
+#essencial {
+    background-image: url(../img/png/Pattern.png);
+}
+
+#essencialImg{
+    height: 90%;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+    left: -1%;
+    margin-top: -1.5%;
+}
+
+#essencialPattern {
+    height: 90%;
+    width: auto;
+    position: absolute;
+    right: auto;
+    margin-top: -1.5%;
+}
+
+#hypnotic {
+    background-image: url(../img/fundo\ pincel\ 5.jpg);
+}
+
+#hypnoticImg {
+    height: 70%;
+    width: auto;
+    position: absolute;
+    z-index: 100;
+    right: 1%;
+    margin-top: 1%;
+}
+
+/* Configurando caixas de texto */
+
+.textBox {
+    background-color: #6D0707;
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 17%;
+    margin-top: 4%;
+    z-index: 101;
+    padding: 1%;
+    border-radius: 5px;
+    opacity: 50%;   
+    stroke: #FFF;
+    stroke-width: 1px;
+    font-size: 12r;
+
+}
